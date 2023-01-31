@@ -17,7 +17,7 @@
                     <td>{{ item.name }}</td>
                 {% endif %}
                 <td>
-                    <a href="{% url 'add' %]">
+                    <a href="/toggle/{{ item.id }}">
                         <button>Toggle</button>
                     </a>
                 </td>
@@ -36,6 +36,6 @@
             <tr><td>You have nothing to do.</td></tr>
         {% endfor %}
     </table>
-    <a href="/add">Add an Item</a>
+    <a href="{% url 'add' %]">
 </body>
 </html>
