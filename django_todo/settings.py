@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '2erm2g25fi&()6+d)rp0(1gw!vp^v2aoxpmfe
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://ckz8780-hello-django-keocode.herokuapp.com/']
+ALLOWED_HOSTS = ['ckz8780-hello-django-keocode.herokuapp.com']
 
 
 # Application definition
